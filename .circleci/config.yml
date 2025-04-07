@@ -1,13 +1,13 @@
 version: 2.1
 
 jobs:
-  hello-world-job:
+  hello-stinky-job:
     docker:
       - image: cimg/base:current
     steps:
-      - run: echo "Hello, World!"
+      - run: echo "Ahoy, Stinky!"
 
 workflows:
-  hello-world-workflow:
+  hello-florld-florkflow:
     jobs:
-      - hello-world-job
+      - hello-stinky-job
